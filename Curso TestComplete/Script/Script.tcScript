@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Aula_1" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1.sd" />
+	</children>
+</Root>

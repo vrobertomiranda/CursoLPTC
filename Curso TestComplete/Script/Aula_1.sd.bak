@@ -1,0 +1,4 @@
+﻿procedure aula1;
+begin
+  log.Message('Olá Mundo!');
+end;
