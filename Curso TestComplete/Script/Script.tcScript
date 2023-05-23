@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Aula_1" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1.sd" />
+		<child name="Aula_1_Introducao" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1_Introducao.sd" />
+		<child name="Aula_2_Tipo_de_Variaveis" key="{60E4AF2D-2476-48F6-94F8-3D993FD99C76}" path="Aula_2_Tipo_de_Variaveis.sd" />
 	</children>
 </Root>

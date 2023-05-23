@@ -1,0 +1,71 @@
+﻿/////////////////////////////////////////////////////////////////////////////////////////////////
+
+procedure varivel;
+var
+  valor : interger;
+  palavra : string;
+  
+begin
+    valor := 10; //  comando := receber x valor
+    palavra := 'Boa tarde!';
+    log.Message(valor);
+    log.Message(palavra);
+end;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//outra forma de declaração é essa abaixo
+
+procedure inteiro;
+var 
+  valor1, valor2, total : interger; //pode declarar dessa forma em uma linha só
+begin
+   valor1 := 1000;
+   valor2 := 2000;
+   
+   total := valor1 + valor2;
+  Log.Message(total);
+end;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//exemplo de que o operador aritimético "+" em variáveis strings, fazem concatenação e não soma
+
+procedure concatenacao;
+var 
+  valor1, valor2, total : string; //pode declarar dessa forma em uma linha só
+begin
+   valor1 := 'Bom';
+   valor2 := 'Dia!';
+   
+   total := valor1 + ' ' + valor2 ;
+  Log.Message(total);
+end;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//exemplo converter valor inteiro para String
+
+procedure inteiroString;
+var 
+  valor1  : interger;
+  palavra : string;
+  frase   : string;
+begin
+   valor1 := 10;
+   palavra := 'Pelé!';
+   
+   frase := IntToStr(valor1) + ' ' + palavra ;
+  Log.Message(frase);
+end;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//exemplo converter valor String para Inteiro
+
+procedure stringInteiro;
+var 
+  palavra : string;
+  total   : interger;
+begin
+   palavra := '1000';
+      
+   total := StrToInt(palavra) ;
+  Log.Message(total);
+end;
