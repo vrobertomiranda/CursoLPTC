@@ -1,0 +1,133 @@
+﻿////////////////////////////////////////////////////////////////////////////////////////////////
+procedure se;
+
+var
+  teste : boolean;
+  valor : interger;
+  palavra : string;
+  
+begin
+  teste := false;
+  valor := 20;
+  palavra := 'curso';
+  
+  if palavra = 'curso' then
+    begin
+      Log.Message('Sua Condicao é Verdadeira!');
+      log.Checkpoint(palavra);
+    end
+  else
+    log.Message('Sua condicao é falsa!!!!');
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+procedure operadorAND;
+
+var
+  teste : boolean;
+  valor : interger;
+  palavra : string;
+  
+begin
+  teste := true;
+  valor := 20;
+  palavra := 'curso';
+
+  //operador AND
+  
+  if (teste = true) and (valor = 30) then // quando ta testando mais de uma condição no if, deve-se colocar as condições entre parenteses
+    begin
+      Log.Message('Sua condicao é verdadeira!');
+      log.Checkpoint(teste);
+      Log.Checkpoint(valor);
+      
+    end else
+      log.Message('Sua condicao é falsa!');
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+procedure operadorOR;
+
+var
+  teste : boolean;
+  valor : interger;
+  palavra : string;
+  
+begin
+  teste := true;
+  valor := 20;
+  palavra := 'curso';
+
+  //operador OR
+  
+  if (teste = false) or (valor = 30) then // quando ta testando mais de uma condição no if, deve-se colocar as condições entre parenteses
+    begin
+      Log.Message('Sua condicao é verdadeira!');
+      log.Checkpoint(teste);
+      Log.Checkpoint(valor);
+      
+    end else
+      log.Message('Sua condicao é falsa!');
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+procedure operadorNOT;
+
+var
+  teste : boolean;
+  valor : interger;
+  palavra : string;
+  
+begin
+  teste := true;
+  valor := 20;
+  palavra := 'curso';
+
+  //operador NOT
+  
+  if not (teste = true) then // quando ta testando mais de uma condição no if, deve-se colocar as condições entre parenteses
+    begin
+      Log.Message('Sua condicao é verdadeira!');
+      log.Checkpoint(teste);
+      Log.Checkpoint(valor);
+      
+    end else
+      log.Message('Sua condicao é falsa!');
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+procedure combinandoOperadores;
+
+var
+  teste : boolean;
+  valor : interger;
+  palavra : string;
+  
+begin
+  teste := true;
+  valor := 20;
+  palavra := 'curso';
+
+  //operador NOT
+  
+  if not (teste = false) and (palavra = 'teste') then // quando ta testando mais de uma condição no if, deve-se colocar as condições entre parenteses
+    begin
+      Log.Message('Sua condicao é verdadeira!');
+      log.Checkpoint(teste);
+      Log.Checkpoint(valor);
+      
+    end else
+      log.Message('Sua condicao é falsa!');
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////

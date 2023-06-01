@@ -1,0 +1,17 @@
+﻿procedure casoSimples;
+
+var 
+  valor : interger;
+  
+begin
+  valor := 30;
+  
+  case(valor) of
+    1: log.Message('Meu valor é 1');
+    10: log.Message('Meu valor é 10');
+    100: log.Message('Meu valor é 100');
+  else
+    Log.Error('Valor Inesperado') ;
+  end;
+
+end;
