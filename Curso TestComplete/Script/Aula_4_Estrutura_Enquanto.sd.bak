@@ -1,0 +1,41 @@
+﻿////////////////////////////////////////////////////////////////////////////////////////////////
+procedure enquanto;
+
+  var
+  contador : interger;
+
+  begin
+    contador := 10;
+  
+  while contador >= 0 do // A condição de parada é que contador seja igual a -1
+    begin
+        log.Message(contador);
+        contador := contador - 1;
+    end;    
+  end;
+  
+////////////////////////////////////////////////////////////////////////////////////////////////
+procedure enquantoSe;
+
+  var
+  contador : integer;
+  total    : integer;
+  
+  begin
+    contador := 10;
+  
+  while contador >= 0 do
+    begin
+        if contador = 5 then
+          begin
+            total := contador + 10;
+            log.Message(total);
+          end else;
+        
+        Log.Message(contador);
+        contador := contador - 1;
+    
+    end;
+  end;
+  
+////////////////////////////////////////////////////////////////////////////////////////////////

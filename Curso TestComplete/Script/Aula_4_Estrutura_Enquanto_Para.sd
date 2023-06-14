@@ -1,0 +1,61 @@
+﻿//////////////////////////////////// ESTRUTURA WHILE ///////////////////////////////////////////
+procedure enquanto;
+
+  var
+  contador : interger;
+
+  begin
+    contador := 10;
+  
+  while contador >= 0 do // A condição de parada é que contador seja igual a -1
+    begin
+        log.Message(contador);
+        contador := contador - 1;
+    end;    
+  end;
+  
+//////////////////////////////////// ESTRUTURA WHILE ///////////////////////////////////////////
+procedure enquantoSe;
+
+  var
+  contador : integer;
+  total    : integer;
+  
+  begin
+    contador := 10;
+  
+  while contador >= 0 do
+    begin
+        if contador = 5 then
+          begin
+            total := contador + 10;
+            log.Message(total);
+          end else;
+        
+        Log.Message(contador);
+        contador := contador - 1;
+    
+    end;
+  end;
+  
+//////////////////////////////////// ESTRUTURA FOR //////////////////////////////////////////////
+procedure para;
+
+  var
+  contador, numero : integer;
+  
+  begin
+    contador := 0;
+    numero := 6;
+    
+  for contador := 5 to numero - 1 do
+    begin
+      log.Message(numero);
+      numero := numero -1;
+    
+    end;
+  end;
+
+//////////////////////////////////// ESTRUTURA FOR //////////////////////////////////////////////
+
+
