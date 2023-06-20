@@ -1,0 +1,16 @@
+﻿uses
+  Aula_5_Funcoes;
+
+procedure calculadora;
+
+    var
+      multiplicado : interger;
+
+begin
+    
+  multiplicado := 5;
+  multiplicado := Aula_5_Funcoes.multiplicar(multiplicado);
+  
+  log.Message(total);
+
+end; 

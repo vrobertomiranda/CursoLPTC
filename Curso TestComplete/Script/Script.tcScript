@@ -6,5 +6,7 @@
 		<child name="Aula_3_0_Estruturas_de_Decisao" key="{5BB83F1C-5032-4C49-B728-434D24CF304B}" path="Aula_3_0_Estruturas_de_Decisao.sd" />
 		<child name="Aula_3_1_Estrutura_Caso" key="{10EF5359-A52A-4478-9F6F-92440E751F40}" path="Aula_3_1_Estrutura_Caso.sd" />
 		<child name="Aula_4_Estrutura_Enquanto_Para" key="{DE3DF164-8B2D-4B89-A8A1-0281715015BA}" path="Aula_4_Estrutura_Enquanto_Para.sd" />
+		<child name="Aula_5_Funcoes" key="{B021E1D7-1CAE-4F48-A11B-58571B9ADA59}" path="Aula_5_Funcoes.sd" />
+		<child name="Aula_5_Chamadas" key="{147A08C1-8134-40C2-B1A3-DABBF19BC54A}" path="Aula_5_Chamadas.sd" />
 	</children>
 </Root>

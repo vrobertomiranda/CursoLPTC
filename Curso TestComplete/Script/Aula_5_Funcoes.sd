@@ -1,0 +1,6 @@
+﻿function multiplicar(valor : interger);
+
+  begin
+    valor := valor * valor;  
+    result := valor;
+  end;
