@@ -1,0 +1,83 @@
+﻿procedure bancoOrigem (codigoBanco : string);
+begin
+  
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('grpDadosOrigem').VCLObject('edtBancoOri').Keys(codigoBanco);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure moedaOrigem (codigoMoeda : string);
+begin
+  
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('grpDadosOrigem').VCLObject('edtMoedaOri').Keys(codigoMoeda);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure bancoDestino (codigoBanco : string);
+begin
+  
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('grpDadosDestino').VCLObject('edtBancoDes').Keys(codigoBanco);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure moedaDestino (codigoMoeda : string);
+begin
+  
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('grpDadosDestino').VCLObject('edtMoedaDes').Keys(codigoMoeda);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure codigoHistorico (codigo : integer);
+begin
+  
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('edtCodHist').Keys(codigo);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure valor (valor : string);
+begin
+
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('fnpValor').Keys(valor);
+
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure gravar;
+begin
+
+    Sys.Process('PCSIS632').VCLObject('frmPcinf771').VCLObject('WallpaperRotinaPC1').VCLObject('pnlForm').VCLObject('pnlRodape').VCLObject('btnEntrar2').Click;  
+    Sys.Process('PCSIS632').Window('TMessageForm', 'Confirmação', 1).VCLObject('Yes')
+    
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure confirmacao;
+begin
+  
+    if Sys.Process('PCSIS632').Window('TMessageForm', 'Confirmação', 1).Exists then
+      begin
+        log.Checkpoint('Registro Gravado');
+        Sys.Process('PCSIS632').Window('TMessageForm', 'Confirmação', 1).VCLObject('Yes').Click;
+      end
+    else
+        log.Error('Mensagem de confirmação não apareceu');
+      
+end;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+procedure impressao;
+begin
+  
+    if Sys.Process('PCSIS632').Window('TMessageForm', 'Confirmação', 1).Exists then
+      begin
+        log.Checkpoint('Registro Impresso');
+        Sys.Process('PCSIS632').Window('TMessageForm', 'Confirmação', 1).VCLObject('No').Click;
+      end
+    else
+        log.Error('Mensagem de impressão não apareceu');
+      
+end;

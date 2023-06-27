@@ -1,0 +1,19 @@
+﻿uses menuPrincipal, tela632;
+
+procedure gravarTransferencia;
+
+begin
+  
+  menuPrincipal.abrirRotina('632');
+  
+  tela632.bancoOrigem('1');
+  tela632.moedaOrigem('D');
+  tela632.bancoDestino('2');
+  tela632.moedaDestino('2');
+  tela632.codigoHistorico(1);
+  tela632.valor('200');
+  tela632.gravar;
+
+  tela632.confirmacao;  
+
+end;

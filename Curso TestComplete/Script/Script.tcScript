@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
+		<folder name="automacoes">
+			<folder name="632">
+				<child name="casoTeste1" key="{29418098-46E0-4542-9250-C48DB1EE1B1B}" path="casoTeste1.sd" />
+				<child name="tela632" key="{ABBF68B7-CDE5-4CD5-B819-D818DF4EDF17}" path="tela632.sd" />
+			</folder>
+			<child name="menuPrincipal" key="{FE748CC0-0B49-4AAA-8381-15F8A31C2892}" path="menuPrincipal.sd" />
+		</folder>
 		<child name="Aula_1_Introducao" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1_Introducao.sd" />
 		<child name="Aula_2_Tipo_de_Variaveis" key="{60E4AF2D-2476-48F6-94F8-3D993FD99C76}" path="Aula_2_Tipo_de_Variaveis.sd" />
 		<child name="Aula_3_0_Estruturas_de_Decisao" key="{5BB83F1C-5032-4C49-B728-434D24CF304B}" path="Aula_3_0_Estruturas_de_Decisao.sd" />

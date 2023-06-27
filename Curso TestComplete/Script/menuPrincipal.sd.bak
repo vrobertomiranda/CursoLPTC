@@ -1,0 +1,7 @@
+﻿procedure abrirRotina (numero : string);
+
+begin
+
+   Sys.Process('PCINF000').VCLObject('frmPrincipal').VCLObject('shpCodRotina').Keys(numero + '[Enter]');
+
+end;

@@ -23,74 +23,65 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6421490509"/>
+				<Prp name="datetime" type="D" value="45104.649432662"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A2149456-576D-4C0D-95E4-208163733E2F}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_15_24_41_678\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{0CDA3657-08A7-4718-A31A-2D7282528B95}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_15_35_10_982\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6423338657"/>
+				<Prp name="datetime" type="D" value="45104.6510907755"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{F08657F6-90B7-4F1B-A329-5551FBCD9F38}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_15_24_57_646\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{74D5C1D4-65C9-4976-91A2-C5A921536C31}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_15_37_34_243\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6426544444"/>
+				<Prp name="datetime" type="D" value="45104.6544782292"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{732493DC-8BA5-4D9E-B909-FB42CC3632D5}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_15_25_25_344\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{15A01109-0E38-4F0F-903D-632A1956DC88}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_15_42_26_919\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0003">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6707912732"/>
+				<Prp name="datetime" type="D" value="45104.6709126157"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A1C5A7E0-3FA8-4B87-BF84-B1F747E9504D}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_16_05_56_366\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{EFCFFFAF-E0B7-4E20-B6C4-B3464AE6040E}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_16_06_06_850\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0004">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6710383796"/>
+				<Prp name="datetime" type="D" value="45104.6782673148"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{E638F811-900A-453D-81CC-39B8E7A19A09}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_16_06_17_716\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{A10E0970-9A3E-4D86-9469-0B5236FE5131}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_16_16_42_296\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0005">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6778921644"/>
+				<Prp name="datetime" type="D" value="45104.6797409144"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{3CB8174B-E007-4F58-879E-AFFE9A854152}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_16_16_09_883\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
+				<Prp name="key" type="S" value="{C90FC6B3-8F0F-48C6-97EC-833CA6FA168D}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_16_18_49_615\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0006">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6795928009"/>
+				<Prp name="datetime" type="D" value="45104.6811856713"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{6CD2BA87-9C80-4E70-8B8C-BC883EE4EAB5}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_16_18_36_818\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0007">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45097.6797226736"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{3182DB15-A1BD-4610-8D7E-9983F1DD6735}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Aula_5_Chamadas\calculadora]"/>
-				<Prp name="relpath" type="S" value="20_06_2023_16_18_48_39\Description.tcLog"/>
+				<Prp name="key" type="S" value="{AC80B78D-47B5-415A-BE58-1F7B46A1739F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [casoTeste1\gravarTransferencia]"/>
+				<Prp name="relpath" type="S" value="27_06_2023_16_20_54_442\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
