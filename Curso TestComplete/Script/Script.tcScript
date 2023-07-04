@@ -5,15 +5,22 @@
 			<folder name="632">
 				<child name="casoTeste1" key="{29418098-46E0-4542-9250-C48DB1EE1B1B}" path="casoTeste1.sd" />
 				<child name="tela632" key="{ABBF68B7-CDE5-4CD5-B819-D818DF4EDF17}" path="tela632.sd" />
+				<child name="casoTeste2" key="{3268B2E6-54F9-4A75-8525-FED8B3392D99}" path="casoTeste2.sd" />
 			</folder>
 			<child name="menuPrincipal" key="{FE748CC0-0B49-4AAA-8381-15F8A31C2892}" path="menuPrincipal.sd" />
 		</folder>
-		<child name="Aula_1_Introducao" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1_Introducao.sd" />
-		<child name="Aula_2_Tipo_de_Variaveis" key="{60E4AF2D-2476-48F6-94F8-3D993FD99C76}" path="Aula_2_Tipo_de_Variaveis.sd" />
-		<child name="Aula_3_0_Estruturas_de_Decisao" key="{5BB83F1C-5032-4C49-B728-434D24CF304B}" path="Aula_3_0_Estruturas_de_Decisao.sd" />
-		<child name="Aula_3_1_Estrutura_Caso" key="{10EF5359-A52A-4478-9F6F-92440E751F40}" path="Aula_3_1_Estrutura_Caso.sd" />
-		<child name="Aula_4_Estrutura_Enquanto_Para" key="{DE3DF164-8B2D-4B89-A8A1-0281715015BA}" path="Aula_4_Estrutura_Enquanto_Para.sd" />
-		<child name="Aula_5_Funcoes" key="{B021E1D7-1CAE-4F48-A11B-58571B9ADA59}" path="Aula_5_Funcoes.sd" />
-		<child name="Aula_5_Chamadas" key="{147A08C1-8134-40C2-B1A3-DABBF19BC54A}" path="Aula_5_Chamadas.sd" />
+		<folder name="bancoDados">
+			<child name="conexao" key="{9030EAB4-AA9F-48ED-A75C-1E1780EA5611}" path="conexao.sd" />
+			<child name="select" key="{28D3D02C-FCFD-4A0A-A2E4-4697CE4C43BC}" path="select.sd" />
+		</folder>
+		<folder name="Aulas">
+			<child name="Aula_1_Introducao" key="{FFA1D58F-FD66-4511-A4BA-B87FB888DEFD}" path="Aula_1_Introducao.sd" />
+			<child name="Aula_2_Tipo_de_Variaveis" key="{60E4AF2D-2476-48F6-94F8-3D993FD99C76}" path="Aula_2_Tipo_de_Variaveis.sd" />
+			<child name="Aula_3_0_Estruturas_de_Decisao" key="{5BB83F1C-5032-4C49-B728-434D24CF304B}" path="Aula_3_0_Estruturas_de_Decisao.sd" />
+			<child name="Aula_3_1_Estrutura_Caso" key="{10EF5359-A52A-4478-9F6F-92440E751F40}" path="Aula_3_1_Estrutura_Caso.sd" />
+			<child name="Aula_4_Estrutura_Enquanto_Para" key="{DE3DF164-8B2D-4B89-A8A1-0281715015BA}" path="Aula_4_Estrutura_Enquanto_Para.sd" />
+			<child name="Aula_5_Chamadas" key="{147A08C1-8134-40C2-B1A3-DABBF19BC54A}" path="Aula_5_Chamadas.sd" />
+			<child name="Aula_5_Funcoes" key="{B021E1D7-1CAE-4F48-A11B-58571B9ADA59}" path="Aula_5_Funcoes.sd" />
+		</folder>
 	</children>
 </Root>

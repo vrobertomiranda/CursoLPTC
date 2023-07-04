@@ -1,0 +1,17 @@
+﻿////////////// FUNÇÃO DE CONEXÃO //////////////////
+
+function criaConexao();
+  var
+    conexao, strConexao : Olevariant;
+    
+begin
+    ////Criar a conexão com o BD /////////
+    conexao := ADO.CreateADOQuery;
+    ////String de Conexão ////////////
+    strConexao := 'Dsn=LOCAL;uid=ATUAL;Password=ATUAL';
+    
+    conexao.ConnectionString := strConexao;
+    
+    result := conexao;
+
+end;

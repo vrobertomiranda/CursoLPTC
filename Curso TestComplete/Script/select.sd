@@ -1,0 +1,43 @@
+﻿uses 
+    conexao;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+function consulta();
+    var
+      conSQL : string;     /// Variavel que armazena a consulta
+      qry    : oleVariant; /// Variavel que faz a conexão com o banco de dados
+
+begin
+  
+    conSQL := 'SELECT COBRANCA FROM PCCOB WHERE CODCOB = ''D''';
+    
+    qry := conexao.criaConexao;
+    qry.SQL := conSQL;
+    qry.open;
+    
+    result := qry.FieldByName('COBRANCA').AsString;
+    
+    qry.close;
+    
+end;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+function consulta2(codigoCobranca : string);
+    var
+      conSql : string;     /// Variavel que armazena a consulta
+      qry    : oleVariant; /// Variavel que faz a conexão com o banco de dados
+
+begin
+  
+    conSQL := 'SELECT COBRANCA FROM PCCOB WHERE CODCOB = ';
+    conSQL := conSQL + '''' + codigoCobranca + ''''; // AQUI PRECISA DAS 4 ASPAS ANTES E DEPOIS VISTO QUE O CAMPO É VARCHAR DE CODCOB
+    
+    qry := conexao.criaConexao;
+    qry.SQL := conSQL;
+    qry.open;
+    
+    result := qry.FieldByName('COBRANCA').AsString;
+    
+    qry.close;
+    
+end;

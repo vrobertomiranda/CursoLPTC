@@ -1,0 +1,36 @@
+﻿uses
+  conexao;
+
+function consulta();
+var
+  conSQL : string;
+  qry : oleVariant;
+begin
+  conSQL := 'SELECT COBRANCA FROM PCCOB WHERE CODCOB = ''D''';
+  
+  qry := conexao.criaConexao;
+  qry.SQL := conSQL;
+  qry.open;
+  
+  result: = qry.FieldByName('COBRANCA').AsString;
+  
+  qry.close;
+end;
+
+function consulta2(codigoCobranca : string);
+var
+  conSQL : string; //Variavel que armazena a consulta
+  qry : oleVariant; //Variavel que faz a conexao com o banco
+begin
+
+  conSQL := 'SELECT COBRANCA FROM PCCOB WHERE CODCOB = ';
+  conSQL := conSQL + '''' + codigoCobranca + '''';
+  
+  qry := conection.criaConexao;
+  qry.SQL := conSQL;
+  qry.open;
+  
+  result: = qry.FieldByName('COBRANCA').AsString;
+  
+  qry.close;
+end;

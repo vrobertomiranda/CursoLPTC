@@ -1,0 +1,14 @@
+﻿function criaConexao();
+var
+  conexao, strConexao : OleVariant;
+begin
+   //Criar a conexão com o banco de dados;
+   conexao := ADO.CreateADOQuery;
+   
+   //String de Conexão
+   strConexao := 'Dsn=AUTOTESTE13;uid=AUTOTESTE13;Password=AUTOTESTE13';
+   
+   conexao.ConnectionString := strConexao;
+   
+   result := conexao;
+end;
